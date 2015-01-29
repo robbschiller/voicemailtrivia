@@ -1,0 +1,17 @@
+{
+  "name": "fiftytwoweeksofvoicemailtrivia",
+  "description": "a game",
+  "repository": "git://github.com/robbschiller/fiftytwoweeksofvoicemailtrivia.git",
+  "scripts": {
+    "start": "node build.js",
+    "deploy": "cd build && git init . && git add . && git commit -m 'deploy'; git push 'git@github.com:robbschiller/fiftytwoweeksofvoicemailtrivia.github.io.git' master --force && rm -rf .git/"
+  },
+  "version": "0.0.0",
+  "main": "build.js",
+  "dependencies": {
+    "metalsmith": "1.x",
+    "metalsmith-autoprefixer": "^0.1.2",
+    "metalsmith-sass": "^0.5.0",
+    "metalsmith-watch": "^0.2.0"
+  }
+}
