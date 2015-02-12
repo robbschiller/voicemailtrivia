@@ -4,7 +4,7 @@
   "repository": "git://github.com/robbschiller/fiftytwoweeksofvoicemailtrivia.git",
   "scripts": {
     "start": "node build.js",
-    "deploy": "cd build && git init . && git add . && git commit -m 'deploy'; git push 'git@github.com:robbschiller/fiftytwoweeksofvoicemailtrivia.git' master --force && rm -rf .git/"
+    "deploy": "cd build && git init . && git checkout -b gh-pages && git add . && git commit -m 'deploy'; git push 'git@github.com:robbschiller/fiftytwoweeksofvoicemailtrivia.git' gh-pages --force && rm -rf .git/"
   },
   "version": "0.0.0",
   "main": "build.js",
