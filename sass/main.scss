@@ -22,6 +22,11 @@ header {
 section, footer {
   text-align: center;
   padding: 14em 0;
+  h2 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
   a {
     color: #000;
     &:hover {
@@ -31,18 +36,18 @@ section, footer {
 }
 
 .intro {
+  h1 {
+    font-size: 2em;
+  }
   h3, p {
     width: 400px;
     margin: 24px auto;
   }
 }
 
-.intro, .two, .four, .six, .eight, .ten {
+footer, .intro, .two, .four, .six, .eight, .ten {
   background: #000;
   color: #fff;
-  h1 {
-    font-size: 2em;
-  }
   a {
     color: #fff;
   }
