@@ -1,0 +1,38 @@
+html, body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0; }
+  html h1, body h1 {
+    font-size: 2em; }
+
+header {
+  background: #000;
+  position: relative;
+  top: 0;
+  text-align: center; }
+  header a {
+    color: #fff; }
+
+section, footer {
+  text-align: center;
+  padding: 14em 0; }
+  section h2, footer h2 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px; }
+  section a, footer a {
+    color: #000; }
+    section a:hover, footer a:hover {
+      text-decoration: overline; }
+
+.intro h1 {
+  font-size: 2em; }
+.intro h3, .intro p {
+  width: 400px;
+  margin: 24px auto; }
+
+footer, .intro, .two, .four, .six, .eight, .ten, .twelve, .fourteen, .sixteen, .eighteen, .twenty, .twenty-two, .twenty-four, .twenty-six {
+  background: #000;
+  color: #fff; }
+  footer a, .intro a, .two a, .four a, .six a, .eight a, .ten a, .twelve a, .fourteen a, .sixteen a, .eighteen a, .twenty a, .twenty-two a, .twenty-four a, .twenty-six a {
+    color: #fff; }
